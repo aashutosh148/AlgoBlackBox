@@ -1,0 +1,30 @@
+{
+	"env": {
+		"node": true,
+		"es2021": true
+	},
+	"extends": ["eslint:recommended", "plugin:node/recommended"],
+	"parserOptions": {
+		"ecmaVersion": 2021,
+		"sourceType": "module"
+	},
+	"rules": {
+		"node/prefer-global/console": ["error", "always"],
+		"node/prefer-global/process": ["error", "always"],
+		"node/prefer-global/url-search-params": ["error", "always"],
+		"node/prefer-global/url": ["error", "always"],
+		"node/prefer-promises/dns": "error",
+		"node/prefer-promises/fs": "error",
+		"no-unused-vars": [
+			"warn",
+			{
+				"argsIgnorePattern": "^_"
+			}
+		],
+		"no-console": "warn",
+		"indent": ["error", 2],
+		"linebreak-style": ["error", "unix"],
+		"quotes": ["error", "single"],
+		"semi": ["error", "always"]
+	}
+}
