@@ -106,10 +106,10 @@ export default function Header() {
     <div className="flex flex-col items-center justify-center min-h-screen">
       <header className="text-center">
         <h1 className="text-5xl font-serif mb-4 text-foreground">
-          Discover the world's top algorithms
+          Competitive Programming Templates Library
         </h1>
         <p className="text-muted-foreground mb-8">
-          Explore and understand complex algorithms through interactive visualizations
+            Search for the algorithm and get the code in C++, Java, and Python
         </p>
 
         <div className="relative max-w-2xl mx-auto">
